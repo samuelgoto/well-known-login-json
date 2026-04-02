@@ -22,19 +22,19 @@ For example:
 ```json
 {
   // Accepts passwords
-  passwords: true,
+  "passwords": true,
   // Accepts passkeys
-  publicKey: {
-    challenge: /* ... */,
-    rpId: 'example.com',
-    userVerification: 'preferred',
+  "publicKey": {
+    "challenge": "...",
+    "rpId": "example.com",
+    "userVerification": "preferred",
   },
   // Accepts federated login
-  identity: {
-     providers: [{
-       clientId: "1234",
-       configURL: "https://idp.example",
-       params: { nonce: /* ... */}
+  "identity": {
+     "providers": [{
+       "clientId": "1234",
+       "configURL": "https://idp.example",
+       "params": { nonce: "..."}
      }]
   }
 }
