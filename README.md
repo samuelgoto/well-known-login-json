@@ -7,7 +7,7 @@ This is a proposal to allow webites to expose a machine readable `.well-known/lo
 - This is intended to be used inside and/or outside of a browser enviornment too (i.e. outside of a JS/HTML context, e.g. in a native app or in a CLI).
 - This is a `.well-known` version of the imperative [`mediation: "immediate"`](https://github.com/w3c/webauthn/blob/main/explainers/immediate-mediation.md) proposal and the HTML equivalent [`<login>` element](https://github.com/fedidcg/login-element) proposal
 - This is somewhat related to `WWW-Authenticate` and, for example, `Basic Auth`, but outside of HTTP headers.
-- This is intended to be as an input to [agentic federated login](https://github.com/w3c-fedid/agentic-federated-login)
+- This is intended to be as an input to things like, for example, [agentic federated login](https://github.com/w3c-fedid/agentic-federated-login)
 
 # Proposal
 
