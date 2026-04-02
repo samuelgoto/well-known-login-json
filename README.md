@@ -34,7 +34,7 @@ For example:
      "providers": [{
        "clientId": "1234",
        "configURL": "https://idp.example",
-       "params": { nonce: "..."}
+       "params": { "nonce": "..."}
      }]
   }
 }
