@@ -19,7 +19,12 @@ The `login.json` file describes declarative what an otherwise imperative call to
 
 For example:
 
-```json
+```http
+GET /.well-known/login.json HTTP/1.1
+Host: example.com
+Content-Type: application/json
+Content-Length: 4523
+
 {
   // Accepts passwords
   "passwords": true,
